@@ -25,11 +25,15 @@ h2.roughneck{
 img.dome{
     display: block;
     margin-top: auto;
-    margin-left: 40px;
+    margin-left: 2%;
     margin-right: auto;
     margin-bottom: 20px;
-    width: auto;
-    height: 450px;
+    width: 400px;
+    height: auto;
+}
+figcaption.dome{
+    color: white;
+    text-align: justify;
 }
 p.roughneck{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -55,7 +59,7 @@ h2.hawaii{
 img.hawaii{
     display: block;
     margin-top: auto;
-    margin-left: 40px;
+    margin-left: 20px;
     margin-right: auto;
     margin-bottom: 20px;
     width: auto;
@@ -68,4 +72,9 @@ p.hawaii{
     margin-left: 20px;
     margin-right: 20px;
     font-size: medium;
+}
+
+figcaption.hawaii{
+    color: black;
+    text-align:start;
 }
