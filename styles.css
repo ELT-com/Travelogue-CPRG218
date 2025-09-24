@@ -1,7 +1,7 @@
 body{
     background-color: #BFD8BD;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-
+    margin: 0;
 }
 header{
     text-align: center;
@@ -110,8 +110,20 @@ figcaption.grassi{
     text-align: center;
 }
 
-h2.foot{
-    text-align: center;
-    
+footer{
+    background-color: #333333;
+    padding: 10px;
+    margin-top: 10px;
 }
-/*
+small{
+    color: white;
+    text-align: center;
+    display: block;
+    font-size: small;
+    margin: 0;
+}
+h2.foot{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;   
+    color: white;
+}
